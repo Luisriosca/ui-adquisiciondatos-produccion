@@ -2,7 +2,7 @@ const express = require('express');
 const expressLayouts = require('express-ejs-layouts');
 
 const app = express();
-const port =  3000;
+const port =  3001;
 
 app.use(expressLayouts);
 app.set("view engine", "ejs");
@@ -15,4 +15,4 @@ app.get('/',(req, res) => {
 
 
 
-app.listen(port, () => {console.log("Server is listening on PORT 3000")})
+app.listen(port, () => {console.log("Server is listening on PORT 3001")})
